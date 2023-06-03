@@ -9,5 +9,7 @@ print("Hello World\nHello World")
 print("Hello " + "Ahmed")
 
 # In Python, indentation error is when there is an  
-# existing space before the code
+# existing space before the code line
 
+#len ===> used to calculate the length of a string
+print(len(input("What is your name? ")))
