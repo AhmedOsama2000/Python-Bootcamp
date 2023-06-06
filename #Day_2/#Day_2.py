@@ -35,9 +35,14 @@ print(type(16/4))
 
 ## Rounding methods round(A/B, C) C is the decimal places
 ## Floor rounding use //
+## Rounding could be done also using "{:.nf}".format n = 1,2,3,... indicating the rounding precision
+## but note that the returned value from format() is string not float!!!
 print(round(8/3))
 print(round(8/3,3))
-print(8//3)
+rnd = 8/3
+print("{:.10f}".format(rnd))
+
+print(8//3) # ==> Floor
 
 ## /= ,*= , += , -= ==> Result = Result/2 or Result * 2 ....
 
