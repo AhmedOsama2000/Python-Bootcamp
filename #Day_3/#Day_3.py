@@ -46,4 +46,6 @@ else:
   print("Sorry , you have to grow taller before you can ride.")
 
 ## lower() ==> turn into lowercase
+## upper() ==> turn into upperrcase
 ## count() ==> number of time a letter occurs in a string (lower or upper)
+## 
