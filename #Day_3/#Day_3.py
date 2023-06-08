@@ -48,4 +48,3 @@ else:
 ## lower() ==> turn into lowercase
 ## upper() ==> turn into upperrcase
 ## count() ==> number of time a letter occurs in a string (lower or upper)
-## 
