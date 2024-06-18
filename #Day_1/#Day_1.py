@@ -20,5 +20,5 @@ print(len(input("What is your name? ")))
 
 ####### Python is a case-sensitive programming language
 
-name = input("Whta is your name? ")
+name = input("What is your name? ")
 print(name)
